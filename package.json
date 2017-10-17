@@ -24,7 +24,6 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-polyfill": "^6.26.0",
     "babel-preset-react": "^6.24.1",
-    "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.7",
     "eslint": "^4.9.0",
     "eslint-plugin-react": "^7.4.0",

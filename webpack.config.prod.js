@@ -1,6 +1,5 @@
 const path    = require( 'path' );
 const webpack = require( 'webpack' );
-const CleanWebpackPlugin = require( 'clean-webpack-plugin' );
 
 const ALWAYS_USE_ORIGINAL_QUOTES = 3;
 
@@ -58,7 +57,6 @@ module.exports = {
     context   : __dirname, // string (absolute path!)
     target    : 'web',
     plugins : [
-        new CleanWebpackPlugin( [ 'dist' ] ),
         new webpack.DefinePlugin(
             {
                 'process.env' : {
